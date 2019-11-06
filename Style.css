@@ -1,0 +1,44 @@
+﻿body {
+    background-color: aquamarine;
+}
+
+p {
+    color: forestgreen;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+p.dsgn {
+        color: maroon;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        font-style: italic;
+}
+
+.head1 {
+    color: orangered;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+    padding-right: 60px;
+    margin-top: 0px;
+}
+li {
+    border: 1px solid black;
+    width:250px;
+
+}
+li:hover{
+    background-color:mediumorchid;
+    font-weight:bold;
+}
+
+#cityentry{
+    width:250px;
+}

@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="js\weatherautocompletefn.js"></script>
+    <link rel="stylesheet"
+          type="text/css"
+          href="css/Style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.js"></script>
+    
+</head >
+                <body>
+
+                    <center>
+                        <p class="head1" style="color:orangered ;font-size:35px">Please enter the city name whose weather information you would like to view</p>
+                        <input type="text" name="cityname" id="cityentry" oninput="getfilterdata()" autocomplete="off" />
+                        <input type="submit" value="submit" onclick="getweather()" /></br>
+                    <div id="autocomplete">
+                        
+                    </div>
+            </center>
+                <br />
+                <br />
+                <br />
+                <center>
+                    <p class="dsgn" id="display" style="font-size:25px">  </p><br>
+                        <p class="dsgn" id="humidity"> </p>
+                        <p id="chhumid"></p>
+                        <p class="dsgn" id="pressure"> </p>
+                        <p id="chpressure"></p>
+                        <p class="dsgn" id="temperature"></p>
+                        <p id="chtemp"> </p>
+                        <p class="dsgn" id="type"> </p>
+                        <p id="chtype"></p>
+                        <p class="dsgn" id="description"></p>
+                        <p id="chdesc"></p>
+            </center>
+</body>
+</html >
